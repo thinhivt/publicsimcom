@@ -1,0 +1,89 @@
+.logo {
+    width: 70px;
+    height: 54px;
+}
+.logo2 {
+    width: 132px;
+    height: 42px;
+}
+.logoNH{
+    width: 200px;
+}
+.logoNH2{
+    width: 125px;
+}
+.infor{
+    background-image: url(../images/background/hinh-nen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.black-background-color {
+    background-color: rgba(0, 0, 0, 0.66);
+    width: 100%;
+    height: 100%;
+
+}
+.widht-fit-content {
+    width: fit-content;
+}
+.blue-background-color {
+    background-color: rgb(1, 81, 152);
+}
+.text-congty {
+    font-size: 20px;
+}
+input:invalid{
+    border-bottom-color: brown;
+}
+.gray-background-color {
+    background-color: rgb(231, 235, 240);
+}
+@media only screen and (max-width: 350px) {
+    .text-congty {
+        font-size: 15px;
+    }
+}
+.bg-color {
+    background-color: #8bb6d8;
+}
+.face img {
+    width: 80%;
+}
+.text-darkblue{
+ color:#293a4a;;
+}
+.user-basic ul {
+ padding-left: 5px;
+}
+.user-basic ul li {
+    list-style-type: none;
+    font-size: 80%;
+}
+.user-basic ul li label {
+    width: 90px;
+}
+.bg-title-main {
+    background-color: #293a4a;
+}
+.statistic{
+    display:grid;
+    grid-template: repeat(1, 1fr)/repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:5px;
+}
+.statistic-item {
+    display:grid;
+    grid-template: repeat(1, 1fr)/ 90px 1fr;
+}
+.item-cnt {
+    display: grid;
+    align-items: center;
+}
+.statistic-img img {
+    width: 100%;
+}
+footer p {
+    padding: 1px 0px 1px 0px;
+    margin-bottom: 2px;
+    font-size: 90%;
+}
